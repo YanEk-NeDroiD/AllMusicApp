@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD16EB952DB3B297003217ED /* RadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD16EB942DB3B297003217ED /* RadioViewController.swift */; };
+		DD16EB972DB3D058003217ED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD16EB962DB3D058003217ED /* MainViewController.swift */; };
 		DD245B532D734FA70023CB0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD245B522D734FA70023CB0F /* AppDelegate.swift */; };
 		DD245B552D734FA70023CB0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD245B542D734FA70023CB0F /* SceneDelegate.swift */; };
 		DD245B572D734FA70023CB0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD245B562D734FA70023CB0F /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD16EB942DB3B297003217ED /* RadioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioViewController.swift; sourceTree = "<group>"; };
+		DD16EB962DB3D058003217ED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DD245B4F2D734FA70023CB0F /* All music app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "All music app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD245B522D734FA70023CB0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD245B542D734FA70023CB0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +76,9 @@
 				DD245B5B2D734FA80023CB0F /* Assets.xcassets */,
 				DD245B5D2D734FA80023CB0F /* LaunchScreen.storyboard */,
 				DD245B602D734FA80023CB0F /* Info.plist */,
+				DD16EB962DB3D058003217ED /* MainViewController.swift */,
 				DDBAB63B2D85C4A9002917E1 /* PlayerViewController.swift */,
+				DD16EB942DB3B297003217ED /* RadioViewController.swift */,
 			);
 			path = "All music app";
 			sourceTree = "<group>";
@@ -162,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD245B572D734FA70023CB0F /* ViewController.swift in Sources */,
+				DD16EB952DB3B297003217ED /* RadioViewController.swift in Sources */,
 				DDBAB63C2D85C4A9002917E1 /* PlayerViewController.swift in Sources */,
+				DD16EB972DB3D058003217ED /* MainViewController.swift in Sources */,
 				DD245B532D734FA70023CB0F /* AppDelegate.swift in Sources */,
 				DD245B552D734FA70023CB0F /* SceneDelegate.swift in Sources */,
 			);
